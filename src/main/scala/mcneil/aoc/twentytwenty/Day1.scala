@@ -2,7 +2,7 @@ package mcneil.aoc.twentytwenty
 
 import scala.annotation.tailrec
 
-class Task1 {
+class Day1 {
 
   def part1(numbers: Seq[Int]): Int = {
     val res = findSumOfTwo(numbers)
