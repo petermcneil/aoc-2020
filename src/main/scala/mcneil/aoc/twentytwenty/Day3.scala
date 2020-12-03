@@ -9,7 +9,7 @@ class Day3 {
 
     @tailrec
     def threeRightAndDownOne(seq: Seq[String], treeCounter: Int = 0, position: Int = 0): Int = {
-      val newPos = (position + 3 % lineLength)
+      val newPos = (position + 3) % lineLength
       seq match {
         case Nil => treeCounter
         case _ :: y :: xs =>
