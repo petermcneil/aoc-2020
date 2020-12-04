@@ -26,6 +26,6 @@ class Day3Test extends Testing {
   test("Part 2 - What is the product of the trees you hit on the toboggan on the way down for these slopes?") {
     val result = underTest.part2(day3)
 
-    assertResult(268)(result)
+    assertResult(3093068400L)(result)
   }
 }
