@@ -17,7 +17,6 @@ class Day4 {
 
   def part1(lines: Seq[String]): Int = {
 
-
     @tailrec
     def recursePart1(lines: Seq[String], counter: Int = 0): Int = {
       lines match {
